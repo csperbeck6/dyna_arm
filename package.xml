@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+	<name>dyna_arm</name>
+	<version>0.0.0</version>
+	<description>The dyna_arm package</description>
+
+	<maintainer email="csperbec@ycp.edu">csperbec</maintainer>
+	<license> :) </license>
+
+	<author email="csperbec@ycp.edu">Cara Sperbeck</author>
+	<author email="swilkerson@ycp.edu">Dr. Drew Wilkerson</author>
+
+
+	<buildtool_depend>catkin</buildtool_depend>
+	<build_depend>rospy</build_depend>
+	<build_export_depend>rospy</build_export_depend>
+	<exec_depend>rospy</exec_depend>
+</package>
