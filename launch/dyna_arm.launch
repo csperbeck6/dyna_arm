@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="joy" name="joy_node" type="joy_node" output="screen"/>
+	<node pkg="dyna_arm" name="dyna_arm" type="dyna_arm.py" output="screen"/>
+</launch>
